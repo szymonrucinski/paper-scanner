@@ -30,15 +30,19 @@ One possible approach is the following:
 ## Some useful functions
 To resize an image: 
 
-`skimage.transform.resize(image, output_shape)`
+```python
+skimage.transform.resize(image, output_shape)
+```
 
 The notebooks in this section help in finding the intersection point of two lines, and rectifying the image of sheet of paper.
 
 To download a large dataset of handwritten digits, which can be used to train a classifier:
 
-`from keras.datasets import mnist`
+```python 
+from keras.datasets import mnist
 
-`(x_train, y_train), (x_test, y_test) = mnist.load_data()`
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+```
 
 ## Rules and expectations
 The task is difficult and comprises several sub-tasks. You are not expected to implement a solution that works always perfectly.
@@ -52,7 +56,7 @@ A forum is created on moodle to freely discuss these issues, brainstorm improvem
 
 Submission and grading
 Submission is compulsory: 
-Tentative deadline (to be confirmed): 2 Nov 2021, 9:00 AM.
+Tentative deadline (to be confirmed): 9 Nov 2021, 9:00 AM.
 
 Submit through moodle an HTML or PDF file of your notebook implementing your solution and describing your approach. Before saving, reset the kernel and run the entire notebook. Use markdown cells to describe what your code does, and illustrate intermediate results.
 
