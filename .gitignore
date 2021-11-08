@@ -5,6 +5,10 @@
 #folders
 hw_im_1/
 hw_im_2/
+models/
+segmented_numbers/
+utils/
+
 # Vagrant
 .vagrant/
 
